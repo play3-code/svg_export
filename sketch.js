@@ -48,3 +48,9 @@ function drawTrees() {
     ellipse(x, y, 10, 10);
   }
 }
+
+function keyTyped() {
+  if (key == "s") {
+    save("trees.svg");
+  }
+}
